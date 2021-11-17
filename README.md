@@ -1,7 +1,7 @@
 # 【Swift】Nearby Interactionを用いたiPhone間の距離と方向を取得するアプリ
 ## はじめに
 「iPhoneとiPhone間」と「AppleWatchとiPhone間」の距離と方向をリアルタイムで取得するアプリを作成しましたので、実装方法を説明したいと思います。  
-ソースコードは、こちらの[iPhoneとiPhone間アプリ]()と[AppleWatchとiPhone間アプリ]()の2種類になります。  
+ソースコードは、こちらの[iPhoneとiPhone間アプリ](https://github.com/MIZUNO-CORPORATION/NearbyInteractionByMultipeerConnectivity)と[AppleWatchとiPhone間アプリ](https://github.com/MIZUNO-CORPORATION/NearbyInteractionByCoreBluetooth)の2種類になります。  
 使用するフレームワークは[Nearby Interaction](https://developer.apple.com/documentation/nearbyinteraction)で、室内でデバイス間30m程度を数cmの精度で50Hzでデータを取得することができました。  
 このフレームワークは、U1チップを搭載しているiPhone 11とApple Watch 6以降のデバイスかつiOS 14以降で使用可能です。U1チップで使われている超広帯域無線（UWB）という技術は[こちらの記事](https://wired.jp/2020/06/21/u1-chip-future-of-apple-6/)で詳しく説明されており、ARでも活用が期待されているようです。
 
