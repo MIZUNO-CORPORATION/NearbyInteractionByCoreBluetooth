@@ -1,15 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NearbyInteractionByCoreBluetooth_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Device:" id="n0I-Tz-kGN"/>
+                        <label alignment="left" text="-" id="Yse-ul-LeQ"/>
+                        <label alignment="left" text="Distance[m]:" id="ThH-vZ-N15"/>
+                        <label alignment="left" text="-" id="H2M-sS-2uU"/>
+                    </items>
+                    <connections>
+                        <outlet property="deviceNameLabel" destination="Yse-ul-LeQ" id="2go-8k-5tc"/>
+                        <outlet property="distanceLabel" destination="H2M-sS-2uU" id="6Uf-0S-lkT"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="-16" y="-6"/>
         </scene>
     </scenes>
 </document>

@@ -13,7 +13,7 @@
 		A9D2E41D2744BCE40085DB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E41B2744BCE40085DB26 /* Main.storyboard */; };
 		A9D2E41F2744BCE60085DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E41E2744BCE60085DB26 /* Assets.xcassets */; };
 		A9D2E4222744BCE60085DB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E4202744BCE60085DB26 /* LaunchScreen.storyboard */; };
-		A9D2E4272744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A9D2E4262744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9D2E4272744BCE60085DB26 /* NI by CB WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A9D2E4262744BCE60085DB26 /* NI by CB WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A9D2E42D2744BCE60085DB26 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E42B2744BCE60085DB26 /* Interface.storyboard */; };
 		A9D2E42F2744BCE70085DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E42E2744BCE70085DB26 /* Assets.xcassets */; };
 		A9D2E4352744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A9D2E4342744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -21,6 +21,7 @@
 		A9D2E43C2744BCE70085DB26 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E43B2744BCE70085DB26 /* ExtensionDelegate.swift */; };
 		A9D2E43E2744BCE70085DB26 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E43D2744BCE70085DB26 /* ComplicationController.swift */; };
 		A9D2E4402744BCE80085DB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D2E43F2744BCE80085DB26 /* Assets.xcassets */; };
+		A9D2E4502744BD800085DB26 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2E44F2744BD800085DB26 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				A9D2E4272744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app in Embed Watch Content */,
+				A9D2E4272744BCE60085DB26 /* NI by CB WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,7 +75,7 @@
 		A9D2E41E2744BCE60085DB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D2E4212744BCE60085DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D2E4232744BCE60085DB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9D2E4262744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NearbyInteractionByCoreBluetooth WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D2E4262744BCE60085DB26 /* NI by CB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NI by CB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D2E42C2744BCE60085DB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		A9D2E42E2744BCE70085DB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D2E4342744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NearbyInteractionByCoreBluetooth WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,15 @@
 		A9D2E43D2744BCE70085DB26 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		A9D2E43F2744BCE80085DB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D2E4412744BCE80085DB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D2E44F2744BD800085DB26 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A9D2E4512744C09E0085DB26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9D2E4532744C14C0085DB26 /* MCBrowserViewController.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MCBrowserViewController.jpg; sourceTree = "<group>"; };
+		A9D2E4542744C14C0085DB26 /* CB_UsageDescription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CB_UsageDescription.png; sourceTree = "<group>"; };
+		A9D2E4552744C14C0085DB26 /* MC_UsageDescription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC_UsageDescription.png; sourceTree = "<group>"; };
+		A9D2E4562744C14C0085DB26 /* rendered2x-1591201856.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rendered2x-1591201856.png"; sourceTree = "<group>"; };
+		A9D2E4572744C14C0085DB26 /* rendered2x-1591202374.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rendered2x-1591202374.png"; sourceTree = "<group>"; };
+		A9D2E4582744C14C0085DB26 /* CSV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CSV.png; sourceTree = "<group>"; };
+		A9D2E4592744C14C0085DB26 /* NI_UsageDescription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NI_UsageDescription.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,8 @@
 		A9D2E4092744BCE40085DB26 = {
 			isa = PBXGroup;
 			children = (
+				A9D2E4512744C09E0085DB26 /* README.md */,
+				A9D2E4522744C1100085DB26 /* img */,
 				A9D2E4142744BCE40085DB26 /* NearbyInteractionByCoreBluetooth */,
 				A9D2E42A2744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App */,
 				A9D2E4382744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension */,
@@ -117,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				A9D2E4122744BCE40085DB26 /* NearbyInteractionByCoreBluetooth.app */,
-				A9D2E4262744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app */,
+				A9D2E4262744BCE60085DB26 /* NI by CB WatchKit App.app */,
 				A9D2E4342744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -129,6 +141,7 @@
 				A9D2E4152744BCE40085DB26 /* AppDelegate.swift */,
 				A9D2E4172744BCE40085DB26 /* SceneDelegate.swift */,
 				A9D2E4192744BCE40085DB26 /* ViewController.swift */,
+				A9D2E44F2744BD800085DB26 /* File.swift */,
 				A9D2E41B2744BCE40085DB26 /* Main.storyboard */,
 				A9D2E41E2744BCE60085DB26 /* Assets.xcassets */,
 				A9D2E4202744BCE60085DB26 /* LaunchScreen.storyboard */,
@@ -156,6 +169,20 @@
 				A9D2E4412744BCE80085DB26 /* Info.plist */,
 			);
 			path = "NearbyInteractionByCoreBluetooth WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A9D2E4522744C1100085DB26 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A9D2E4542744C14C0085DB26 /* CB_UsageDescription.png */,
+				A9D2E4582744C14C0085DB26 /* CSV.png */,
+				A9D2E4552744C14C0085DB26 /* MC_UsageDescription.png */,
+				A9D2E4532744C14C0085DB26 /* MCBrowserViewController.jpg */,
+				A9D2E4592744C14C0085DB26 /* NI_UsageDescription.png */,
+				A9D2E4562744C14C0085DB26 /* rendered2x-1591201856.png */,
+				A9D2E4572744C14C0085DB26 /* rendered2x-1591202374.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +221,7 @@
 			);
 			name = "NearbyInteractionByCoreBluetooth WatchKit App";
 			productName = "NearbyInteractionByCoreBluetooth WatchKit App";
-			productReference = A9D2E4262744BCE60085DB26 /* NearbyInteractionByCoreBluetooth WatchKit App.app */;
+			productReference = A9D2E4262744BCE60085DB26 /* NI by CB WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		A9D2E4332744BCE70085DB26 /* NearbyInteractionByCoreBluetooth WatchKit Extension */ = {
@@ -291,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9D2E41A2744BCE40085DB26 /* ViewController.swift in Sources */,
+				A9D2E4502744BD800085DB26 /* File.swift in Sources */,
 				A9D2E4162744BCE40085DB26 /* AppDelegate.swift in Sources */,
 				A9D2E4182744BCE40085DB26 /* SceneDelegate.swift in Sources */,
 			);
@@ -534,12 +562,13 @@
 				DEVELOPMENT_TEAM = BDVDN9SNKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = NearbyInteractionByCoreBluetooth_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "NearbyInteractionByCoreBluetooth WatchKit App";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jp.com.mizuno.NearbyInteractionByCoreBluetooth;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.com.mizuno.NearbyInteractionByCoreBluetooth.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NI by CB WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -560,12 +589,13 @@
 				DEVELOPMENT_TEAM = BDVDN9SNKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = NearbyInteractionByCoreBluetooth_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "NearbyInteractionByCoreBluetooth WatchKit App";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jp.com.mizuno.NearbyInteractionByCoreBluetooth;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.com.mizuno.NearbyInteractionByCoreBluetooth.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NI by CB WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -586,6 +616,9 @@
 				DEVELOPMENT_TEAM = BDVDN9SNKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyInteractionByCoreBluetooth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NI by CB";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -602,7 +635,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -616,6 +649,9 @@
 				DEVELOPMENT_TEAM = BDVDN9SNKG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NearbyInteractionByCoreBluetooth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NI by CB";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "For exchanging the discovery token.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "For the peer's direction and distance.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -632,7 +668,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
