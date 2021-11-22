@@ -15,9 +15,9 @@
    - アプトプット例：3.553371
 
 1. [`direction`](https://developer.apple.com/documentation/nearbyinteraction/ninearbyobject/3601347-direction)
-   - `simd_float3?`：相手のデバイスの方向が、正規化された３次元で取得される（上図）
+   - `simd_float3?`：相手のデバイスの方向が、正規化された３次元で取得される（下記の上図）
    - 相手がApple Watchの場合は、取得できず`nil`になる
-   - 方向を取得するためには、相手のデバイスが一定の範囲にある必要がある（下図）
+   - 方向を取得するためには、相手のデバイスが一定の範囲にある必要がある（下記の下図）
    - アウトプット例：SIMD3<Float>(-0.3952641, 0.07060665, -0.91584986)
    
 1. [`discoveryToken`](https://developer.apple.com/documentation/nearbyinteraction/ninearbyobject/3601162-discoverytoken)
