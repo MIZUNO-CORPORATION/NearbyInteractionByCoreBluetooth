@@ -67,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A99B770F274B518C00684ECC /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		A9D2E4122744BCE40085DB26 /* NearbyInteractionByCoreBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyInteractionByCoreBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D2E4152744BCE40085DB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D2E4172744BCE40085DB26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 				A9D2E4582744C14C0085DB26 /* CSV.png */,
 				A9D2E4552744C14C0085DB26 /* MC_UsageDescription.png */,
 				A9D2E4532744C14C0085DB26 /* MCBrowserViewController.jpg */,
+				A99B770F274B518C00684ECC /* demo.gif */,
 				A9D2E4592744C14C0085DB26 /* NI_UsageDescription.png */,
 				A9D2E4562744C14C0085DB26 /* rendered2x-1591201856.png */,
 				A9D2E4572744C14C0085DB26 /* rendered2x-1591202374.png */,

@@ -1,11 +1,12 @@
 # 【Swift】Nearby Interactionを用いたiPhone間の距離と方向を取得するアプリ
 ## はじめに
-「iPhoneとiPhone間」と「AppleWatchとiPhone間」の距離と方向をリアルタイムで取得するアプリを作成しましたので、実装方法を説明したいと思います。  
+「iPhoneとiPhone間」と「AppleWatchとiPhone間」の距離と方向をリアルタイムで取得するアプリを作成しましたので、実装方法を説明したいと思います。
+下記のgifは、iPhoneを固定しApple Watchを対角線3mの星形をなぞった際の取得データを、別途可視化したものです。    
 ソースコードは、こちらの[iPhoneとiPhone間アプリ](https://github.com/MIZUNO-CORPORATION/NearbyInteractionByMultipeerConnectivity)と[AppleWatchとiPhone間アプリ](https://github.com/MIZUNO-CORPORATION/NearbyInteractionByCoreBluetooth)の2種類になります。  
 使用するフレームワークは[Nearby Interaction](https://developer.apple.com/documentation/nearbyinteraction)で、室内でデバイス間30m程度を数cmの精度で50Hzでデータを取得することができました。  
 このフレームワークは、U1チップを搭載しているiPhone 11とApple Watch 6以降のデバイスかつiOS 14以降で使用可能です。U1チップで使われている超広帯域無線（UWB）という技術は[こちらの記事](https://wired.jp/2020/06/21/u1-chip-future-of-apple-6/)で詳しく説明されており、ARでも活用が期待されているようです。
 
-![デモ動画]()
+![デモ動画](img/demo.gif)
 
 ## 取得できる情報
 1. [`distance`](https://developer.apple.com/documentation/nearbyinteraction/ninearbyobject/3601348-distance)
@@ -18,6 +19,11 @@
    - 相手がApple Watchの場合は、取得できず`nil`になる
    - 方向を取得するためには、相手のデバイスが一定の範囲にある必要がある（下図）
    - アウトプット例：SIMD3<Float>(-0.3952641, 0.07060665, -0.91584986)
+   
+1. [`discoveryToken`](https://developer.apple.com/documentation/nearbyinteraction/ninearbyobject/3601162-discoverytoken)
+   - `NIDiscoveryToken`：交換した相手のトークンのIDが取得される
+   - 複数台同時にデータを取得する場合は、このIDで区別する
+   - アウトプット例：E30B...200D
 
 ドキュメントでは、距離は9m以内と記載がありますが、30m離れても検出可能でした。  
 また取得できるサンプリングレートは50Hz程度でした。

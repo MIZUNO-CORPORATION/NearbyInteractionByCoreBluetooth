@@ -82,6 +82,7 @@ class ViewController: UIViewController {
 extension ViewController: NISessionDelegate {
     func session(_ session: NISession, didUpdate nearbyObjects: [NINearbyObject]) {
         var stringData = ""
+        print(nearbyObjects)
         
         // The session runs with one accessory.
         guard let accessory = nearbyObjects.first else { return }
